@@ -1,0 +1,59 @@
+/* Footer.css */
+.footer {
+    padding: 100px 0;
+    background-color: #000000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #f9fafc;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.link ul {
+    list-style: none;
+    padding: 0;
+}
+
+.link a {
+    font-size: 16px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link a:hover {
+    color: #f9fafc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        padding: 60px 0;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .link h3 {
+        font-size: 16px;
+    }
+    
+    .link a {
+        font-size: 14px;
+    }
+}
